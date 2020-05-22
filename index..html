@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Game</title>
+    <link rel="icon" type="image/png" href="pictures/favicon.ico"/>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" async></script>
+</head>
+<body>
+
+    <div class="overlay-text visible"> 
+        Click to Start
+    </div>
+    <div id="game-over-text" class="overlay-text">
+        Game Over
+        <div class="overlay-text-small">Click To Restart</div>
+        <a href="index.html"></a> 
+
+    </div>
+    <div id="victory-text" class="overlay-text">
+        You Won!
+        <span class="overlay-text-small">Click To Restart </span>
+    </div>
+    <div class="container">
+ 
+
+        <div class="logo">
+            Memory Game.
+        </div>
+        <div class="container-wrapper">
+            <div class="nav-wrapper"> 
+
+                <div class="left-side">      
+                    <div class="nav-link-wrapper">            
+                        <a href="index.html">Home</a> 
+                    </div>                 
+                    <div class="nav-link-wrapper">     
+                        <a href="about.html">About</a>   
+                    </div>
+                </div>
+            
+                <div class="right-side">        
+                    <div class="brand">
+                        <div>ANNA POBEGAEVA</div>
+                    </div>
+                </div>
+
+            </div>          
+                
+
+
+            
+                
+
+                
+        </div>
+
+
+
+    </div>
+
+    <div class="game-container">
+        <div class="game-info-container">
+            <div class="game-info">
+                Time <span id="time-remaining">100</span>
+            </div>
+            <div class="game-info">
+                Flips <span id="flips">0</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-back card-face">
+                <img src="./pictures/back_cart.jpg" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class= "card-value" src="./pictures/1.jpg" alt="">
+            </div>
+            
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img src="./pictures/back_cart.jpg" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class= "card-value"  src="./pictures/8.jpg" alt="">
+            </div>
+            
+        </div>   
+        <div class="card">
+            <div class="card-back card-face">
+                <img src="./pictures/back_cart.jpg" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class= "card-value" src="./pictures/2.jpg" alt="">
+            </div>
+            
+        </div>   
+        <div class="card">
+            <div class="card-back card-face">
+                <img src="./pictures/back_cart.jpg" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class= "card-value" src="./pictures/3.jpg" alt="">
+            </div>
+            
+        </div>  
+        <div class="card">
+            <div class="card-back card-face"> 
+                <img src="./pictures/back_cart.jpg" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class= "card-value" src="./pictures/4.jpg" alt="">
+            </div>
+            
+        </div>  
+        <div class="card">
+            <div class="card-back card-face">
+                <img src="./pictures/back_cart.jpg" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class= "card-value" src="./pictures/5.jpg" alt="">
+            </div>
+            
+        </div>  
+        <div class="card">
+            <div class="card-back card-face">
+                <img src="./pictures/back_cart.jpg" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class= "card-value" src="./pictures/6.jpg" alt="">
+            </div>
+            
+        </div>  
+        <div class="card">
+            <div class="card-back card-face">
+                <img src="./pictures/back_cart.jpg" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class= "card-value" src="./pictures/7.jpg" alt="">
+            </div>
+            
+        </div>   
+        <div class="card">
+            <div class="card-back card-face">
+                <img src="./pictures/back_cart.jpg" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class= "card-value" src="./pictures/8.jpg" alt="">
+            </div>
+            
+        </div> 
+        <div class="card">
+            <div class="card-back card-face">
+                <img src="./pictures/back_cart.jpg" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class= "card-value" src="./pictures/1.jpg" alt="">
+            </div>
+            
+        </div>  
+        <div class="card">
+            <div class="card-back card-face">
+                <img src="./pictures/back_cart.jpg" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class= "card-value" src="./pictures/2.jpg" alt="">
+            </div>
+            
+        </div>    
+        <div class="card">
+            <div class="card-back card-face">
+                <img src="./pictures/back_cart.jpg" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class= "card-value" src="./pictures/3.jpg" alt="">
+            </div>
+            
+        </div>   
+        <div class="card">
+            <div class="card-back card-face">
+                <img src="./pictures/back_cart.jpg" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class= "card-value" src="./pictures/4.jpg" alt="">
+            </div>
+            
+        </div>  
+        <div class="card">
+            <div class="card-back card-face">
+                <img src="./pictures/back_cart.jpg" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class= "card-value" src="./pictures/5.jpg" alt="">
+            </div>
+            
+        </div>  
+        <div class="card">
+            <div class="card-back card-face">
+                <img src="./pictures/back_cart.jpg" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class= "card-value" src="./pictures/6.jpg" alt="">
+            </div>
+            
+        </div>  
+        <div class="card">
+            <div class="card-back card-face">
+                <img src="./pictures/back_cart.jpg" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class= "card-value" src="./pictures/7.jpg" alt="">
+            </div>
+            
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img src="./pictures/back_cart.jpg" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class= "card-value"  src="./pictures/9.jpg" alt="">
+            </div>
+            
+        </div>   
+        <div class="card">
+            <div class="card-back card-face">
+                <img src="./pictures/back_cart.jpg" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class= "card-value"  src="./pictures/9.jpg" alt="">
+            </div>
+            
+        </div>   
+
+
+        
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    
+    <section id="intro">
+    
+        <div id="intro-content" class="center-content">
+    
+            <div class="center-content-inner">
+        
+                <div class="content-section content-section-margin">
+        
+                    <div class="content-section-grid clearfix">
+                    
+                        <a href="index..html" class="button nav-link">   
+                            <div class="bottom"></div>
+        
+                            <div class="top">
+        
+                                <div class="label">Restart</div>
+                    
+                                <div class="button-border button-border-left"></div>
+                                <div class="button-border button-border-top"></div>
+                                <div class="button-border button-border-right"></div>
+                                <div class="button-border button-border-bottom"></div>
+
+                            
+        
+                            </div>
+            
+                        </a>
+            
+                    </div>
+        
+                </div>
+        
+                
+        
+            </div>
+
+        </div>
+    
+    </section>
+    
+
+    
+
+
+    
+</body>
+</html>
